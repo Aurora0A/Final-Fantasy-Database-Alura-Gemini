@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Gemini</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    <header>
+        <h1 class="header-h1"><i class="fi fi-rr-angle-right"></i>Final Fantasy</h1>
+        <img class="header-img" src="img/FFI_logo.webp" alt="Final Fantasy I">
+        <form class="header-form" action="#" method="get">
+            <input class="header-input" type="text" name="search" placeholder="Pesquisar">
+            <button class="header-button" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+    </header>
+    <main>
+        <h2 class="intro-title">O Mundo Mágico de Final Fantasy</h2>
+        <p class="intro">
+            Final Fantasy é uma das franquias de RPGs mais icônicas e duradouras da indústria dos videogames, criada por Hironobu Sakaguchi. Conhecida por suas histórias envolventes, personagens memoráveis e trilhas sonoras inesquecíveis, a série nos transporta para mundos de fantasia ricos em detalhes e cheios de magia.
+            <br>
+            A Magia de Cada Jogo
+            <br>
+            Cada título da série Final Fantasy apresenta uma história única, com personagens e cenários completamente diferentes. Essa diversidade é um dos grandes atrativos da franquia, permitindo que os jogadores vivenciem experiências completamente novas a cada jogo.
+        </p>
+        <section id="filter-container" class="main-section">
+            <input type="checkbox" id="main" value="Título Principal" class="main-input">
+            <label for="main">Títulos Principais</label>
+            <input type="checkbox" id="spin-off" value="Spin-off" class="main-input">
+            <label for="spin-off">Spin-offs</label>
+        </section>
+
+        <ul class="main-ul">
+            <template id="card-template">
+                <li class="main-li">
+                    <img src="#" alt="" class="card-image">
+                    <div class="card-text">
+                      <h2 class="card-title"></h2>
+                      <p class="card-description"></p>
+                    </div>
+                </li>
+            </template>
+        </ul>
+        
+        <h2 class="game-title">Por Onde Começar?</h2>
+        <img src="" alt="Banner" class="banner">
+        <p class="final">
+            A ordem ideal para jogar Final Fantasy depende muito das suas preferências pessoais. Alguns jogadores preferem seguir a ordem cronológica de lançamento, enquanto outros gostam de começar pelos títulos mais aclamados pela crítica.
+            <br>
+            <br>
+            Cada título da série Final Fantasy apresenta uma história única, com personagens e cenários completamente diferentes. Essa diversidade é um dos grandes atrativos da franquia, permitindo que os jogadores vivenciem experiências completamente novas a cada jogo.
+            <br>
+            <br>
+            Os jogos de Final Fantasy são ricos em detalhes e oferecem muitas oportunidades para explorar seus mundos.
+            Muitas vezes, você terá a oportunidade de personalizar seus personagens com diferentes classes e habilidades.
+            As trilhas sonoras de Final Fantasy são lendárias e contribuem muito para a imersão na história.
+            A comunidade de fãs de Final Fantasy é muito ativa e pode oferecer dicas e informações valiosas.
+            <br>
+            <br>
+            Final Fantasy é uma franquia que oferece uma experiência única para os fãs de RPG. Se você está procurando por aventuras épicas, personagens memoráveis e mundos de fantasia ricos em detalhes, Final Fantasy é a série perfeita para você.
+        </p>
+    </main>
+    <footer>
+        <nav>
+            <ul class="footer-ul">
+                <li class="footer-li"><a href="#">Sobre Nós</a></li>
+                <li class="footer-li"><a href="#">Contato</a></li>
+                <li class="footer-li"><a href="#">Política de Privacidade</a></li>
+            </ul>
+        </nav>
+        <p>&copy; 2024 Alura Gemini - Nenhum dos direitos reservados.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

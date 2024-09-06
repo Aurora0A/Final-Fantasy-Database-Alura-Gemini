@@ -1,0 +1,248 @@
+[
+  {
+    "title": "Final Fantasy I",
+    "image": "img/final-fantasy-i.avif",
+    "description": "O primeiro jogo da série, lançado em 1987, estabeleceu as bases para a franquia, com sua história épica e sistema de combate por turnos.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy II",
+    "image": "img/final-fantasy-ii.jpg",
+    "description": "Continuação da história do primeiro jogo, com um sistema de crescimento de personagens mais flexível e uma trama mais complexa.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy III",
+    "image": "img/final-fantasy-iii.webp",
+    "description": "Introduziu o conceito de classes de personagens e um sistema de magia mais profundo.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy IV",
+    "image": "img/final-fantasy-iv.jpg",
+    "description": "Considerado um dos melhores jogos da série, com uma história emocionante e personagens memoráveis como Cecil Harvey e Rosa Farrell.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy V",
+    "image": "img/final-fantasy-v.webp",
+    "description": "Com um sistema de jobs altamente personalizável, o jogador pode criar personagens únicos e poderosos.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy VI",
+    "image": "img/final-fantasy-vi.png",
+    "description": "Conhecido por sua história sombria e personagens complexos, VI é um dos jogos mais aclamados da série.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy VII",
+    "image": "img/final-fantasy-vii.webp",
+    "description": "Considerado um dos melhores RPGs de todos os tempos, VII introduziu personagens como Cloud Strife e Tifa Lockhart e marcou a transição da série para gráficos 3D.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy VIII",
+    "image": "img/final-fantasy-viii.avif",
+    "description": "Com um sistema de combate baseado em Draw e Junction, VIII apresenta uma história envolvente sobre amor, perda e destino.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy IX",
+    "image": "img/final-fantasy-ix.webp",
+    "description": "Retornando às raízes da série, IX apresenta um visual mais clássico e uma história emocionante sobre amizade e destino.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy X",
+    "image": "img/final-fantasy-x.jpeg",
+    "description": "Com um sistema de combate em tempo real e uma história de amor e sacrifício, X é outro marco na franquia.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy XI",
+    "image": "img/final-fantasy-xi.png",
+    "description": "O primeiro MMORPG da série, XI oferece uma experiência online rica e envolvente, com um mundo persistente e a possibilidade de jogar com outros jogadores.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy XII",
+    "image": "img/final-fantasy-xii.48212c8d-d25b-4988-98b1-a8af31a3df1d",
+    "description": "Com um sistema de combate tático em tempo real e um mundo aberto, XII apresenta uma história épica de guerra e política.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy XIII",
+    "image": "img/final-fantasy-xiii.jpg",
+    "description": "Marcado por gráficos impressionantes e um sistema de combate rápido e fluido, XIII apresenta uma história complexa com múltiplos protagonistas.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy XIV",
+    "image": "img/final-fantasy-xiv.jpg",
+    "description": "Um MMORPG que oferece uma experiência online rica e envolvente, com constante expansão de conteúdo.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy XV",
+    "image": "img/final-fantasy-xv.avif",
+    "description": "Um RPG de mundo aberto que apresenta um sistema de combate dinâmico e uma história focada na jornada de um príncipe e seus amigos.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy XVI",
+    "image": "img/final-fantasy-xvi.webp",
+    "description": "O mais recente lançamento da franquia, com uma história épica ambientada em um mundo de fantasia sombrio e com um sistema de combate rápido e intenso.",
+    "category": "Título Principal"
+  },
+  {
+    "title": "Final Fantasy Artniks",
+    "image": "img/final-fantasy-artniks.jpg",
+    "description": "Um jogo de estratégia baseado em turnos com personagens pixel art e uma história original.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy Brave Exvius",
+    "image": "img/final-fantasy-brave-exvius.jpg",
+    "description": "Um RPG mobile gratuito com gráficos de alta qualidade e uma história envolvente.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Chocobo Racing",
+    "image": "img/chocobo-racing.jpg",
+    "description": "Um jogo de corrida com personagens e cenários do universo Final Fantasy.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy Crystal Chronicles",
+    "image": "img/final-fantasy-crystal-chronicles.jfif",
+    "description": "Um RPG de ação e aventura com cooperação online, onde os jogadores trabalham juntos para coletar cristais.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Crystal Defenders",
+    "image": "img/crystal-defenders.jpg",
+    "description": "Um jogo de defesa de torre com personagens e elementos do universo Final Fantasy.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy Dimensions",
+    "image": "img/final-fantasy-dimensions.jpg",
+    "description": "Um RPG mobile com gráficos em 2D e uma história original.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Dissidia Final Fantasy",
+    "image": "img/dissidia-final-fantasy.avif",
+    "description": "Um jogo de luta com personagens de vários jogos da série Final Fantasy.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy Explorers",
+    "image": "img/final-fantasy-explorers.jpg",
+    "description": "Um RPG de ação e aventura com cooperação online, onde os jogadores exploram um mundo aberto e enfrentam desafios juntos.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "The Final Fantasy Legend",
+    "image": "img/the-final-fantasy-legend.jpg",
+    "description": "Uma série de jogos de RPG com uma perspectiva aérea e um estilo de jogo mais simples.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Theatrhythm Final Fantasy",
+    "image": "img/theatrhythm-final-fantasy.jpg",
+    "description": "Um jogo de ritmo com músicas e personagens da série Final Fantasy.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy: Unlimited",
+    "image": "img/final-fantasy-unlimited.jpg",
+    "description": "Uma série de anime baseada no universo de Final Fantasy.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "World of Final Fantasy",
+    "image": "img/world-of-final-fantasy.jpg",
+    "description": "Um RPG com um estilo chibi e uma história original.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy Adventure",
+    "image": "img/final-fantasy-adventure.webp",
+    "description": "Originalmente lançado como 'Seiken Densetsu', é um RPG de ação e aventura que introduziu a série Mana.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy Mystic Quest",
+    "image": "img/final-fantasy-mystic-quest.jpg",
+    "description": "Um RPG simplificado desenvolvido para novos jogadores, com uma história envolvente e um sistema de combate mais acessível.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy: The 4 Heroes of Light",
+    "image": "img/final-fantasy-the-4-heroes-of-light.webp",
+    "description": "Um RPG clássico com um estilo de arte de conto de fadas, focado na jornada de quatro heróis em um mundo cheio de magia.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Voice Fantasy",
+    "image": "img/voice-fantasy.jpg",
+    "description": "Um RPG mobile que combina elementos de fantasia com comandos baseados em voz.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy Airborne Brigade",
+    "image": "img/final-fantasy-airborne-brigade.jpg",
+    "description": "Um RPG social baseado em turnos com um sistema de combate aéreo e batalhas contra monstros.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy All the Bravest",
+    "image": "img/final-fantasy-all-the-bravest.jpg",
+    "description": "Um RPG mobile com um sistema de batalha simplificado e uma vasta gama de personagens de diferentes jogos da série.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Pictlogica Final Fantasy",
+    "image": "img/pictlogica-final-fantasy.jpg",
+    "description": "Um jogo de quebra-cabeça baseado em pixel art que incorpora personagens e elementos da série Final Fantasy.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy: World Wide Words",
+    "image": "img/final-fantasy-world-wide-words.jpg",
+    "description": "Um jogo de palavras com temática de Final Fantasy, onde jogadores resolvem quebra-cabeças de palavras para avançar na história.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy Record Keeper",
+    "image": "img/final-fantasy-record-keeper.jpg",
+    "description": "Um RPG mobile que permite aos jogadores reviver e recriar batalhas icônicas de toda a série Final Fantasy.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Heavenstrike Rivals",
+    "image": "img/heavenstrike-rivals.jpg",
+    "description": "Um jogo de estratégia e batalha em que os jogadores formam equipes de heróis e lutam contra adversários em um mundo de fantasia.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy Portal App",
+    "image": "img/final-fantasy-portal-app.jpg",
+    "description": "Um aplicativo que fornece notícias, atualizações e informações sobre diversos jogos da franquia Final Fantasy.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Mobius Final Fantasy",
+    "image": "img/mobius-final-fantasy.jpg",
+    "description": "Um RPG mobile com gráficos impressionantes e uma história original ambientada em um mundo de fantasia.",
+    "category": "Spin-off"
+  },
+  {
+    "title": "Final Fantasy Digital Card Game",
+    "image": "img/final-fantasy-digital-card-game.jpg",
+    "description": "Um jogo de cartas colecionáveis digital baseado no universo de Final Fantasy, com uma variedade de personagens e estratégias.",
+    "category": "Spin-off"
+  }
+]
