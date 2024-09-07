@@ -154,6 +154,7 @@ main {
     background-color: #f5f5f5; /* Cor de fundo do card */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra do card */
     position: relative; /* Para posicionar a imagem */
+    cursor: pointer;
 }
 
 /* Aplica um efeito de zoom ao passar o mouse sobre um card */
@@ -162,11 +163,11 @@ main {
     z-index: 1; /* Traz o card para frente */
 }
 
-img {
+.card-image {
     width: 100%; /* A imagem ocupa toda a largura do card */
     height: 100%; /* Altura da imagem */
     object-fit: cover; /* A imagem se ajusta ao tamanho do container, mantendo a proporção */
-    border-radius: 10px 10px; /* Borda arredondada apenas no topo */
+    border-radius: 10px 10px; /* Borda arredondada */
 }
 
 .card-text {
@@ -193,6 +194,18 @@ img {
 
 li:hover .card-text {
     opacity: 1; /* Mostra o texto ao passar o mouse */
+}
+
+.main-final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    max-width: 80%;
+    max-height: 50vh;
+    border-radius: 10px 10px; /* Borda arredondada */
 }
 
 .final {

@@ -370,38 +370,20 @@
 
 
 
-function removeCardWithAnimation(card) {
-  card.classList.add('fade-out');
-  card.addEventListener('transitionend', () => {
-    card.remove();
-  });
-}
-
 const filterContainer = document.getElementById('filter-container');
 const checkboxes = filterContainer.querySelectorAll('input[type="checkbox"]');
 const gameList = document.querySelector('.main-ul');
 const cardTemplate = document.querySelector('#card-template').content;
 
+
 // Carregar dados do JSON
 fetch('database/games.json')
     .then(response => response.json())
     .then(data => {
-        // Criar os cards inicialmente
-        // data.forEach(game => {
-        //     const cardClone = cardTemplate.cloneNode(true);
-        //     cardClone.querySelector('.card-image').src = game.image;
-        //     cardClone.querySelector('.card-title').textContent = game.title;
-        //     cardClone.querySelector('.card-description').textContent = game.description;
-        //     gameList.appendChild(cardClone);
-        // });
 
         // Adicionar event listener para os checkboxes
         checkboxes.forEach(checkbox => {
             checkbox.addEventListener('change', () => {
-              // Remover a classe 'filtered' de todos os cards antes de filtrar
-              // gameList.querySelectorAll('.main-li').forEach(card => {
-              //   card.classList.remove('filtered');
-              // });
                 const selectedCategories = [];
                 checkboxes.forEach(checkbox => {
                     if (checkbox.checked) {
@@ -427,7 +409,23 @@ fetch('database/games.json')
                     gameList.appendChild(cardClone);
 
                     // Selecionar todos os cards
+                    const searchInput = document.getElementById('searchInput');
                     const cards = document.querySelectorAll('.main-li');
+
+                    function search() {
+                        const searchTerm = searchInput.value.toLowerCase();
+
+                        cards.forEach(card => {
+                        const title = card.querySelector('.card-title').textContent.toLowerCase();   
+
+                        const description = card.querySelector('.card-description').textContent.toLowerCase();   
+
+
+                        const isMatch = title.includes(searchTerm) || description.includes(searchTerm);
+                        card.style.display = isMatch ? 'block' : 'none';
+                        });
+                    }
+                    searchInput.addEventListener('input', search);
 
                     // Adicionar um evento de clique a cada card
                     cards.forEach(card => {
@@ -462,12 +460,6 @@ fetch('database/games.json')
                             targetSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
                         });
                     });
-
-                    // cardClone.classList.add('filtered');
-                    // // Remover os cards que não estão mais na lista filtrada (com animação)
-                    // gameList.querySelectorAll('.main-li:not(.filtered)').forEach(card => {
-                    //   removeCardWithAnimation(card);
-                    // });
                 });
             });
         });
@@ -476,3 +468,20 @@ fetch('database/games.json')
         console.error('Error:', error);
     });
 
+
+// const searchInput = document.getElementById('searchInput');
+// const cards = document.querySelectorAll('.main-li');
+
+// function search() {
+//     const searchTerm = searchInput.value.toLowerCase();
+
+//     cards.forEach(card => {
+//     const title = card.querySelector('.card-title').textContent.toLowerCase();   
+
+//     const description = card.querySelector('.card-description').textContent.toLowerCase();   
+
+
+//     const isMatch = title.includes(searchTerm) || description.includes(searchTerm);
+//     card.style.display = isMatch ? 'block' : 'none';
+//     });
+// }
